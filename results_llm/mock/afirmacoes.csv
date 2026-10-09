@@ -1,0 +1,433 @@
+base,grupo,modelo,instancia,narrativa,falha_extracao,tipo,atributos,nao_mapeados,mapeada,verificavel,autorizada,falsa,falsa_dados,irr_branda_falsa,reparo,atenuada,sentido,trecho
+corral,sinteticas,AD,0,llm,False,SUF,x2; x3; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,AD,0,llm,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,AD,0,llm,False,IRR,x5,,True,True,True,False,True,False,,False,,não influenciou o resultado
+corral,sinteticas,AD,0,llm,False,CON,x2,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,AD,0,padrao,False,SUF,x2; x3; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,AD,0,padrao,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,AD,0,padrao,False,IRR,x5,,True,True,True,False,True,False,,False,,não influenciou o resultado
+corral,sinteticas,AD,0,padrao,False,CON,x2,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,RF,0,llm,False,SUF,x2; x3; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,RF,0,llm,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,RF,0,llm,False,IRR,x5,,True,True,True,False,True,False,,False,,não influenciou o resultado
+corral,sinteticas,RF,0,llm,False,CON,x2,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,RF,0,padrao,False,SUF,x2; x4; x3,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,RF,0,padrao,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,RF,0,padrao,False,IRR,x5,,True,True,True,False,True,False,,False,,não influenciou o resultado
+corral,sinteticas,RF,0,padrao,False,CON,x2,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,GB,0,llm,False,SUF,x2; x3; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,GB,0,llm,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,GB,0,llm,False,IRR,x5,,True,True,True,False,True,False,,False,,não influenciou o resultado
+corral,sinteticas,GB,0,llm,False,CON,x2,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,GB,0,padrao,False,SUF,x2; x4; x3,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,GB,0,padrao,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,GB,0,padrao,False,IRR,x5,,True,True,True,False,True,False,,False,,não influenciou o resultado
+corral,sinteticas,GB,0,padrao,False,CON,x2,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,AD,0,llm,False,SUF,x3; x4; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+mux6,sinteticas,AD,0,llm,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,AD,0,llm,False,IRR,x2,,True,True,True,True,True,False,,False,,não influenciou o resultado
+mux6,sinteticas,AD,0,llm,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,AD,0,padrao,False,SUF,x3; x5; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+mux6,sinteticas,AD,0,padrao,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,AD,0,padrao,False,IRR,x2,,True,True,True,True,True,False,,False,,não influenciou o resultado
+mux6,sinteticas,AD,0,padrao,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,RF,0,llm,False,SUF,x3; x4; x5,,True,True,True,True,False,,1.0,False,,a decisão se explica por
+mux6,sinteticas,RF,0,llm,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,RF,0,llm,False,IRR,x6,,True,True,True,False,True,False,,False,,não influenciou o resultado
+mux6,sinteticas,RF,0,llm,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,RF,0,padrao,False,SUF,x3; x5; x4,,True,True,True,True,False,,1.0,False,,a decisão se explica por
+mux6,sinteticas,RF,0,padrao,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,RF,0,padrao,False,IRR,x6,,True,True,True,False,True,False,,False,,não influenciou o resultado
+mux6,sinteticas,RF,0,padrao,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,GB,0,llm,False,SUF,x3; x4; x5,,True,True,True,True,False,,1.0,False,,a decisão se explica por
+mux6,sinteticas,GB,0,llm,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,GB,0,llm,False,IRR,x6,,True,True,True,False,True,False,,False,,não influenciou o resultado
+mux6,sinteticas,GB,0,llm,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,GB,0,padrao,False,SUF,x3; x5; x4,,True,True,True,True,False,,1.0,False,,a decisão se explica por
+mux6,sinteticas,GB,0,padrao,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,GB,0,padrao,False,IRR,x6,,True,True,True,False,True,False,,False,,não influenciou o resultado
+mux6,sinteticas,GB,0,padrao,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+parity5+5,sinteticas,AD,0,llm,False,SUF,x3; x5; x6,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+parity5+5,sinteticas,AD,0,llm,False,REL,x6,,True,True,True,False,False,,,False,,influenciou a decisão
+parity5+5,sinteticas,AD,0,llm,False,IRR,x1,,True,True,True,False,True,False,,False,,não influenciou o resultado
+parity5+5,sinteticas,AD,0,llm,False,CON,x6,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+parity5+5,sinteticas,AD,0,padrao,False,SUF,x6; x5; x3,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+parity5+5,sinteticas,AD,0,padrao,False,REL,x6,,True,True,True,False,False,,,False,,influenciou a decisão
+parity5+5,sinteticas,AD,0,padrao,False,IRR,x1,,True,True,True,False,True,False,,False,,não influenciou o resultado
+parity5+5,sinteticas,AD,0,padrao,False,CON,x6,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+parity5+5,sinteticas,RF,0,llm,False,SUF,x3; x6; x7,,True,True,True,True,True,,2.0,False,,a decisão se explica por
+parity5+5,sinteticas,RF,0,llm,False,REL,x6,,True,True,True,False,False,,,False,,influenciou a decisão
+parity5+5,sinteticas,RF,0,llm,False,IRR,x1,,True,True,True,True,True,False,,False,,não influenciou o resultado
+parity5+5,sinteticas,RF,0,llm,False,CON,x6,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+parity5+5,sinteticas,RF,0,padrao,False,SUF,x6; x3; x7,,True,True,True,True,True,,2.0,False,,a decisão se explica por
+parity5+5,sinteticas,RF,0,padrao,False,REL,x6,,True,True,True,False,False,,,False,,influenciou a decisão
+parity5+5,sinteticas,RF,0,padrao,False,IRR,x1,,True,True,True,True,True,False,,False,,não influenciou o resultado
+parity5+5,sinteticas,RF,0,padrao,False,CON,x6,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+parity5+5,sinteticas,GB,0,llm,False,SUF,x2; x4; x8,,True,True,True,True,True,,3.0,False,,a decisão se explica por
+parity5+5,sinteticas,GB,0,llm,False,REL,x8,,True,True,True,False,False,,,False,,influenciou a decisão
+parity5+5,sinteticas,GB,0,llm,False,IRR,x5,,True,True,True,True,True,False,,False,,não influenciou o resultado
+parity5+5,sinteticas,GB,0,llm,False,CON,x8,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+parity5+5,sinteticas,GB,0,padrao,False,SUF,x8; x4; x2,,True,True,True,True,True,,3.0,False,,a decisão se explica por
+parity5+5,sinteticas,GB,0,padrao,False,REL,x8,,True,True,True,False,False,,,False,,influenciou a decisão
+parity5+5,sinteticas,GB,0,padrao,False,IRR,x5,,True,True,True,True,True,False,,False,,não influenciou o resultado
+parity5+5,sinteticas,GB,0,padrao,False,CON,x8,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk1,sinteticas,AD,0,llm,False,SUF,x1; x2; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+monk1,sinteticas,AD,0,llm,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+monk1,sinteticas,AD,0,llm,False,IRR,x4,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk1,sinteticas,AD,0,llm,False,CON,x5,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk1,sinteticas,AD,0,padrao,False,SUF,x5; x1; x2,,True,True,True,False,False,,,False,,a decisão se explica por
+monk1,sinteticas,AD,0,padrao,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+monk1,sinteticas,AD,0,padrao,False,IRR,x4,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk1,sinteticas,AD,0,padrao,False,CON,x5,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk1,sinteticas,RF,0,llm,False,SUF,x1; x2; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+monk1,sinteticas,RF,0,llm,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+monk1,sinteticas,RF,0,llm,False,IRR,x3,,True,True,True,False,False,False,,False,,não influenciou o resultado
+monk1,sinteticas,RF,0,llm,False,CON,x5,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk1,sinteticas,RF,0,padrao,False,SUF,x5; x2; x1,,True,True,True,False,False,,,False,,a decisão se explica por
+monk1,sinteticas,RF,0,padrao,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+monk1,sinteticas,RF,0,padrao,False,IRR,x3,,True,True,True,False,False,False,,False,,não influenciou o resultado
+monk1,sinteticas,RF,0,padrao,False,CON,x5,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk1,sinteticas,GB,0,llm,False,SUF,x1; x2; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+monk1,sinteticas,GB,0,llm,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+monk1,sinteticas,GB,0,llm,False,IRR,x6,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk1,sinteticas,GB,0,llm,False,CON,x5,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk1,sinteticas,GB,0,padrao,False,SUF,x5; x1; x2,,True,True,True,False,False,,,False,,a decisão se explica por
+monk1,sinteticas,GB,0,padrao,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+monk1,sinteticas,GB,0,padrao,False,IRR,x6,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk1,sinteticas,GB,0,padrao,False,CON,x5,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk2,sinteticas,AD,0,llm,False,SUF,x3; x5; x6,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+monk2,sinteticas,AD,0,llm,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+monk2,sinteticas,AD,0,llm,False,IRR,x4,,True,True,True,True,True,False,,False,,não influenciou o resultado
+monk2,sinteticas,AD,0,llm,False,CON,x3,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk2,sinteticas,AD,0,padrao,False,SUF,x3; x5; x6,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+monk2,sinteticas,AD,0,padrao,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+monk2,sinteticas,AD,0,padrao,False,IRR,x4,,True,True,True,True,True,False,,False,,não influenciou o resultado
+monk2,sinteticas,AD,0,padrao,False,CON,x3,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk2,sinteticas,RF,0,llm,False,SUF,x3; x4; x6,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+monk2,sinteticas,RF,0,llm,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+monk2,sinteticas,RF,0,llm,False,IRR,x5,,True,True,True,True,True,True,,False,,não influenciou o resultado
+monk2,sinteticas,RF,0,llm,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk2,sinteticas,RF,0,padrao,False,SUF,x3; x6; x4,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+monk2,sinteticas,RF,0,padrao,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+monk2,sinteticas,RF,0,padrao,False,IRR,x5,,True,True,True,True,True,True,,False,,não influenciou o resultado
+monk2,sinteticas,RF,0,padrao,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk2,sinteticas,GB,0,llm,False,SUF,x3; x4; x6,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+monk2,sinteticas,GB,0,llm,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+monk2,sinteticas,GB,0,llm,False,IRR,x1,,True,True,True,False,False,False,,False,,não influenciou o resultado
+monk2,sinteticas,GB,0,llm,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk2,sinteticas,GB,0,padrao,False,SUF,x3; x6; x4,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+monk2,sinteticas,GB,0,padrao,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+monk2,sinteticas,GB,0,padrao,False,IRR,x1,,True,True,True,False,False,False,,False,,não influenciou o resultado
+monk2,sinteticas,GB,0,padrao,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk3,sinteticas,AD,0,llm,False,SUF,x2; x4; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+monk3,sinteticas,AD,0,llm,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+monk3,sinteticas,AD,0,llm,False,IRR,x1,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk3,sinteticas,AD,0,llm,False,CON,x2,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk3,sinteticas,AD,0,padrao,False,SUF,x2; x5; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+monk3,sinteticas,AD,0,padrao,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+monk3,sinteticas,AD,0,padrao,False,IRR,x1,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk3,sinteticas,AD,0,padrao,False,CON,x2,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk3,sinteticas,RF,0,llm,False,SUF,x2; x4; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+monk3,sinteticas,RF,0,llm,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+monk3,sinteticas,RF,0,llm,False,IRR,x3,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk3,sinteticas,RF,0,llm,False,CON,x2,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk3,sinteticas,RF,0,padrao,False,SUF,x2; x5; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+monk3,sinteticas,RF,0,padrao,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+monk3,sinteticas,RF,0,padrao,False,IRR,x3,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk3,sinteticas,RF,0,padrao,False,CON,x2,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk3,sinteticas,GB,0,llm,False,SUF,x2; x4; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+monk3,sinteticas,GB,0,llm,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+monk3,sinteticas,GB,0,llm,False,IRR,x3,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk3,sinteticas,GB,0,llm,False,CON,x2,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk3,sinteticas,GB,0,padrao,False,SUF,x2; x5; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+monk3,sinteticas,GB,0,padrao,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+monk3,sinteticas,GB,0,padrao,False,IRR,x3,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk3,sinteticas,GB,0,padrao,False,CON,x2,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+breast-cancer,reais,AD,0,llm,False,SUF,concavidade (média); raio (pior); área (pior),,True,True,True,False,False,,,False,,a decisão se explica por
+breast-cancer,reais,AD,0,llm,False,REL,raio (pior),,True,True,True,False,False,,,False,,influenciou a decisão
+breast-cancer,reais,AD,0,llm,False,IRR,perímetro (média),,True,True,True,False,False,False,,False,,não influenciou o resultado
+breast-cancer,reais,AD,0,llm,False,CON,raio (pior),,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+breast-cancer,reais,AD,0,padrao,False,SUF,raio (pior); área (pior); concavidade (média),,True,True,True,False,False,,,False,,a decisão se explica por
+breast-cancer,reais,AD,0,padrao,False,REL,raio (pior),,True,True,True,False,False,,,False,,influenciou a decisão
+breast-cancer,reais,AD,0,padrao,False,IRR,perímetro (média),,True,True,True,False,False,False,,False,,não influenciou o resultado
+breast-cancer,reais,AD,0,padrao,False,CON,raio (pior),,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+breast-cancer,reais,RF,0,llm,False,SUF,raio (pior); perímetro (pior); área (pior),,True,True,True,False,False,,,False,,a decisão se explica por
+breast-cancer,reais,RF,0,llm,False,REL,raio (pior),,True,True,True,False,False,,,False,,influenciou a decisão
+breast-cancer,reais,RF,0,llm,False,IRR,raio (média),,True,True,True,False,True,False,,False,,não influenciou o resultado
+breast-cancer,reais,RF,0,llm,False,CON,raio (pior),,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+breast-cancer,reais,RF,0,padrao,False,SUF,raio (pior); área (pior); perímetro (pior),,True,True,True,False,False,,,False,,a decisão se explica por
+breast-cancer,reais,RF,0,padrao,False,REL,raio (pior),,True,True,True,False,False,,,False,,influenciou a decisão
+breast-cancer,reais,RF,0,padrao,False,IRR,raio (média),,True,True,True,False,True,False,,False,,não influenciou o resultado
+breast-cancer,reais,RF,0,padrao,False,CON,raio (pior),,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+breast-cancer,reais,GB,0,llm,False,SUF,raio (pior); perímetro (pior); área (pior),,True,True,True,False,False,,,False,,a decisão se explica por
+breast-cancer,reais,GB,0,llm,False,REL,raio (pior),,True,True,True,False,False,,,False,,influenciou a decisão
+breast-cancer,reais,GB,0,llm,False,IRR,pontos côncavos (média),,True,True,True,True,True,False,,False,,não influenciou o resultado
+breast-cancer,reais,GB,0,llm,False,CON,raio (pior),,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+breast-cancer,reais,GB,0,padrao,False,SUF,raio (pior); área (pior); perímetro (pior),,True,True,True,False,False,,,False,,a decisão se explica por
+breast-cancer,reais,GB,0,padrao,False,REL,raio (pior),,True,True,True,False,False,,,False,,influenciou a decisão
+breast-cancer,reais,GB,0,padrao,False,IRR,pontos côncavos (média),,True,True,True,True,True,False,,False,,não influenciou o resultado
+breast-cancer,reais,GB,0,padrao,False,CON,raio (pior),,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+wine,reais,AD,0,llm,False,SUF,teor alcoólico; flavonoides; prolina,,True,True,True,True,False,,1.0,False,,a decisão se explica por
+wine,reais,AD,0,llm,False,REL,prolina,,True,True,True,False,False,,,False,,influenciou a decisão
+wine,reais,AD,0,llm,False,IRR,alcalinidade das cinzas,,True,True,True,False,True,False,,False,,não influenciou o resultado
+wine,reais,AD,0,llm,False,CON,prolina,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+wine,reais,AD,0,padrao,False,SUF,prolina; flavonoides; teor alcoólico,,True,True,True,True,False,,1.0,False,,a decisão se explica por
+wine,reais,AD,0,padrao,False,REL,prolina,,True,True,True,False,False,,,False,,influenciou a decisão
+wine,reais,AD,0,padrao,False,IRR,alcalinidade das cinzas,,True,True,True,False,True,False,,False,,não influenciou o resultado
+wine,reais,AD,0,padrao,False,CON,prolina,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+wine,reais,RF,0,llm,False,SUF,teor alcoólico; flavonoides; prolina,,True,True,True,True,False,,1.0,False,,a decisão se explica por
+wine,reais,RF,0,llm,False,REL,prolina,,True,True,True,False,False,,,False,,influenciou a decisão
+wine,reais,RF,0,llm,False,IRR,alcalinidade das cinzas,,True,True,True,True,True,False,,False,,não influenciou o resultado
+wine,reais,RF,0,llm,False,CON,prolina,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+wine,reais,RF,0,padrao,False,SUF,prolina; teor alcoólico; flavonoides,,True,True,True,True,False,,1.0,False,,a decisão se explica por
+wine,reais,RF,0,padrao,False,REL,prolina,,True,True,True,False,False,,,False,,influenciou a decisão
+wine,reais,RF,0,padrao,False,IRR,alcalinidade das cinzas,,True,True,True,True,True,False,,False,,não influenciou o resultado
+wine,reais,RF,0,padrao,False,CON,prolina,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+wine,reais,GB,0,llm,False,SUF,teor alcoólico; flavonoides; prolina,,True,True,True,True,False,,2.0,False,,a decisão se explica por
+wine,reais,GB,0,llm,False,REL,prolina,,True,True,True,False,False,,,False,,influenciou a decisão
+wine,reais,GB,0,llm,False,IRR,matiz,,True,True,True,False,True,False,,False,,não influenciou o resultado
+wine,reais,GB,0,llm,False,CON,prolina,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+wine,reais,GB,0,padrao,False,SUF,prolina; teor alcoólico; flavonoides,,True,True,True,True,False,,2.0,False,,a decisão se explica por
+wine,reais,GB,0,padrao,False,REL,prolina,,True,True,True,False,False,,,False,,influenciou a decisão
+wine,reais,GB,0,padrao,False,IRR,matiz,,True,True,True,False,True,False,,False,,não influenciou o resultado
+wine,reais,GB,0,padrao,False,CON,prolina,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+iris,reais,AD,0,llm,False,SUF,largura da sépala; comprimento da pétala; largura da pétala,,True,True,True,False,False,,,False,,a decisão se explica por
+iris,reais,AD,0,llm,False,REL,largura da pétala,,True,True,True,False,False,,,False,,influenciou a decisão
+iris,reais,AD,0,llm,False,IRR,comprimento da sépala,,True,True,True,False,True,False,,False,,não influenciou o resultado
+iris,reais,AD,0,llm,False,CON,largura da pétala,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+iris,reais,AD,0,padrao,False,SUF,largura da pétala; comprimento da pétala; largura da sépala,,True,True,True,False,False,,,False,,a decisão se explica por
+iris,reais,AD,0,padrao,False,REL,largura da pétala,,True,True,True,False,False,,,False,,influenciou a decisão
+iris,reais,AD,0,padrao,False,IRR,comprimento da sépala,,True,True,True,False,True,False,,False,,não influenciou o resultado
+iris,reais,AD,0,padrao,False,CON,largura da pétala,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+iris,reais,RF,0,llm,False,SUF,largura da sépala; comprimento da pétala; largura da pétala,,True,True,True,False,False,,,False,,a decisão se explica por
+iris,reais,RF,0,llm,False,REL,largura da pétala,,True,True,True,False,False,,,False,,influenciou a decisão
+iris,reais,RF,0,llm,False,IRR,comprimento da sépala,,True,True,True,False,True,False,,False,,não influenciou o resultado
+iris,reais,RF,0,llm,False,CON,largura da pétala,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+iris,reais,RF,0,padrao,False,SUF,largura da pétala; comprimento da pétala; largura da sépala,,True,True,True,False,False,,,False,,a decisão se explica por
+iris,reais,RF,0,padrao,False,REL,largura da pétala,,True,True,True,False,False,,,False,,influenciou a decisão
+iris,reais,RF,0,padrao,False,IRR,comprimento da sépala,,True,True,True,False,True,False,,False,,não influenciou o resultado
+iris,reais,RF,0,padrao,False,CON,largura da pétala,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+iris,reais,GB,0,llm,False,SUF,largura da sépala; comprimento da pétala; largura da pétala,,True,True,True,False,False,,,False,,a decisão se explica por
+iris,reais,GB,0,llm,False,REL,largura da pétala,,True,True,True,False,False,,,False,,influenciou a decisão
+iris,reais,GB,0,llm,False,IRR,comprimento da sépala,,True,True,True,False,True,False,,False,,não influenciou o resultado
+iris,reais,GB,0,llm,False,CON,largura da pétala,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+iris,reais,GB,0,padrao,False,SUF,largura da pétala; comprimento da pétala; largura da sépala,,True,True,True,False,False,,,False,,a decisão se explica por
+iris,reais,GB,0,padrao,False,REL,largura da pétala,,True,True,True,False,False,,,False,,influenciou a decisão
+iris,reais,GB,0,padrao,False,IRR,comprimento da sépala,,True,True,True,False,True,False,,False,,não influenciou o resultado
+iris,reais,GB,0,padrao,False,CON,largura da pétala,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,AD,1,llm,False,SUF,x2; x3; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,AD,1,llm,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,AD,1,llm,False,IRR,x5,,True,True,True,False,False,False,,False,,não influenciou o resultado
+corral,sinteticas,AD,1,llm,False,CON,x3,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,AD,1,padrao,False,SUF,x3; x2; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,AD,1,padrao,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,AD,1,padrao,False,IRR,x5,,True,True,True,False,False,False,,False,,não influenciou o resultado
+corral,sinteticas,AD,1,padrao,False,CON,x3,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,RF,1,llm,False,SUF,x1; x3; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,RF,1,llm,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,RF,1,llm,False,IRR,x5,,True,True,True,False,False,False,,False,,não influenciou o resultado
+corral,sinteticas,RF,1,llm,False,CON,x3,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,RF,1,padrao,False,SUF,x3; x4; x1,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,RF,1,padrao,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,RF,1,padrao,False,IRR,x5,,True,True,True,False,False,False,,False,,não influenciou o resultado
+corral,sinteticas,RF,1,padrao,False,CON,x3,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,GB,1,llm,False,SUF,x1; x3; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,GB,1,llm,False,REL,x4,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,GB,1,llm,False,IRR,x5,,True,True,True,False,False,False,,False,,não influenciou o resultado
+corral,sinteticas,GB,1,llm,False,CON,x4,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,GB,1,padrao,False,SUF,x4; x3; x1,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,GB,1,padrao,False,REL,x4,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,GB,1,padrao,False,IRR,x5,,True,True,True,False,False,False,,False,,não influenciou o resultado
+corral,sinteticas,GB,1,padrao,False,CON,x4,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,AD,1,llm,False,SUF,x1; x2; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+mux6,sinteticas,AD,1,llm,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,AD,1,llm,False,IRR,x4,,True,True,True,False,False,False,,False,,não influenciou o resultado
+mux6,sinteticas,AD,1,llm,False,CON,x5,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,AD,1,padrao,False,SUF,x5; x1; x2,,True,True,True,False,False,,,False,,a decisão se explica por
+mux6,sinteticas,AD,1,padrao,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,AD,1,padrao,False,IRR,x4,,True,True,True,False,False,False,,False,,não influenciou o resultado
+mux6,sinteticas,AD,1,padrao,False,CON,x5,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,RF,1,llm,False,SUF,x1; x2; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+mux6,sinteticas,RF,1,llm,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,RF,1,llm,False,IRR,x4,,True,True,True,False,False,False,,False,,não influenciou o resultado
+mux6,sinteticas,RF,1,llm,False,CON,x5,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,RF,1,padrao,False,SUF,x5; x1; x2,,True,True,True,False,False,,,False,,a decisão se explica por
+mux6,sinteticas,RF,1,padrao,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,RF,1,padrao,False,IRR,x4,,True,True,True,False,False,False,,False,,não influenciou o resultado
+mux6,sinteticas,RF,1,padrao,False,CON,x5,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,GB,1,llm,False,SUF,x1; x2; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+mux6,sinteticas,GB,1,llm,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,GB,1,llm,False,IRR,x4,,True,True,True,False,False,False,,False,,não influenciou o resultado
+mux6,sinteticas,GB,1,llm,False,CON,x5,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,GB,1,padrao,False,SUF,x5; x1; x2,,True,True,True,False,False,,,False,,a decisão se explica por
+mux6,sinteticas,GB,1,padrao,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,GB,1,padrao,False,IRR,x4,,True,True,True,False,False,False,,False,,não influenciou o resultado
+mux6,sinteticas,GB,1,padrao,False,CON,x5,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+parity5+5,sinteticas,AD,1,llm,False,SUF,x5; x6; x7,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+parity5+5,sinteticas,AD,1,llm,False,REL,x7,,True,True,True,False,False,,,False,,influenciou a decisão
+parity5+5,sinteticas,AD,1,llm,False,IRR,x4,,True,True,True,False,True,False,,False,,não influenciou o resultado
+parity5+5,sinteticas,AD,1,llm,False,CON,x7,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+parity5+5,sinteticas,AD,1,padrao,False,SUF,x7; x6; x5,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+parity5+5,sinteticas,AD,1,padrao,False,REL,x7,,True,True,True,False,False,,,False,,influenciou a decisão
+parity5+5,sinteticas,AD,1,padrao,False,IRR,x4,,True,True,True,False,True,False,,False,,não influenciou o resultado
+parity5+5,sinteticas,AD,1,padrao,False,CON,x7,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+parity5+5,sinteticas,RF,1,llm,False,SUF,x6; x8; x9,,True,True,True,True,True,,2.0,False,,a decisão se explica por
+parity5+5,sinteticas,RF,1,llm,False,REL,x6,,True,True,True,False,False,,,False,,influenciou a decisão
+parity5+5,sinteticas,RF,1,llm,False,IRR,x4,,True,True,True,True,True,False,,False,,não influenciou o resultado
+parity5+5,sinteticas,RF,1,llm,False,CON,x6,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+parity5+5,sinteticas,RF,1,padrao,False,SUF,x6; x8; x9,,True,True,True,True,True,,2.0,False,,a decisão se explica por
+parity5+5,sinteticas,RF,1,padrao,False,REL,x6,,True,True,True,False,False,,,False,,influenciou a decisão
+parity5+5,sinteticas,RF,1,padrao,False,IRR,x4,,True,True,True,True,True,False,,False,,não influenciou o resultado
+parity5+5,sinteticas,RF,1,padrao,False,CON,x6,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+parity5+5,sinteticas,GB,1,llm,False,SUF,x5; x6; x8,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+parity5+5,sinteticas,GB,1,llm,False,REL,x6,,True,True,True,False,False,,,False,,influenciou a decisão
+parity5+5,sinteticas,GB,1,llm,False,IRR,x1,,True,True,True,True,True,False,,False,,não influenciou o resultado
+parity5+5,sinteticas,GB,1,llm,False,CON,x6,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+parity5+5,sinteticas,GB,1,padrao,False,SUF,x6; x5; x8,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+parity5+5,sinteticas,GB,1,padrao,False,REL,x6,,True,True,True,False,False,,,False,,influenciou a decisão
+parity5+5,sinteticas,GB,1,padrao,False,IRR,x1,,True,True,True,True,True,False,,False,,não influenciou o resultado
+parity5+5,sinteticas,GB,1,padrao,False,CON,x6,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk1,sinteticas,AD,1,llm,False,SUF,x3; x5; x6,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+monk1,sinteticas,AD,1,llm,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+monk1,sinteticas,AD,1,llm,False,IRR,x4,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk1,sinteticas,AD,1,llm,False,CON,x5,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk1,sinteticas,AD,1,padrao,False,SUF,x5; x6; x3,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+monk1,sinteticas,AD,1,padrao,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+monk1,sinteticas,AD,1,padrao,False,IRR,x4,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk1,sinteticas,AD,1,padrao,False,CON,x5,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk1,sinteticas,RF,1,llm,False,SUF,x1; x2; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+monk1,sinteticas,RF,1,llm,False,REL,x1,,True,True,True,False,False,,,False,,influenciou a decisão
+monk1,sinteticas,RF,1,llm,False,IRR,x6,,True,True,True,False,False,False,,False,,não influenciou o resultado
+monk1,sinteticas,RF,1,llm,False,CON,x1,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk1,sinteticas,RF,1,padrao,False,SUF,x1; x2; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+monk1,sinteticas,RF,1,padrao,False,REL,x1,,True,True,True,False,False,,,False,,influenciou a decisão
+monk1,sinteticas,RF,1,padrao,False,IRR,x6,,True,True,True,False,False,False,,False,,não influenciou o resultado
+monk1,sinteticas,RF,1,padrao,False,CON,x1,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk1,sinteticas,GB,1,llm,False,SUF,x3; x5; x6,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+monk1,sinteticas,GB,1,llm,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+monk1,sinteticas,GB,1,llm,False,IRR,x4,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk1,sinteticas,GB,1,llm,False,CON,x5,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk1,sinteticas,GB,1,padrao,False,SUF,x5; x6; x3,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+monk1,sinteticas,GB,1,padrao,False,REL,x5,,True,True,True,False,False,,,False,,influenciou a decisão
+monk1,sinteticas,GB,1,padrao,False,IRR,x4,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk1,sinteticas,GB,1,padrao,False,CON,x5,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk2,sinteticas,AD,1,llm,False,SUF,x1; x3; x6,,True,True,True,True,True,,2.0,False,,a decisão se explica por
+monk2,sinteticas,AD,1,llm,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+monk2,sinteticas,AD,1,llm,False,IRR,x2,,True,True,True,True,True,False,,False,,não influenciou o resultado
+monk2,sinteticas,AD,1,llm,False,CON,x3,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk2,sinteticas,AD,1,padrao,False,SUF,x3; x6; x1,,True,True,True,True,True,,2.0,False,,a decisão se explica por
+monk2,sinteticas,AD,1,padrao,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+monk2,sinteticas,AD,1,padrao,False,IRR,x2,,True,True,True,True,True,False,,False,,não influenciou o resultado
+monk2,sinteticas,AD,1,padrao,False,CON,x3,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk2,sinteticas,RF,1,llm,False,SUF,x1; x2; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+monk2,sinteticas,RF,1,llm,False,REL,x1,,True,True,True,False,False,,,False,,influenciou a decisão
+monk2,sinteticas,RF,1,llm,False,IRR,x5,,True,True,True,True,True,False,,False,,não influenciou o resultado
+monk2,sinteticas,RF,1,llm,False,CON,x1,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk2,sinteticas,RF,1,padrao,False,SUF,x1; x2; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+monk2,sinteticas,RF,1,padrao,False,REL,x1,,True,True,True,False,False,,,False,,influenciou a decisão
+monk2,sinteticas,RF,1,padrao,False,IRR,x5,,True,True,True,True,True,False,,False,,não influenciou o resultado
+monk2,sinteticas,RF,1,padrao,False,CON,x1,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk2,sinteticas,GB,1,llm,False,SUF,x1; x2; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+monk2,sinteticas,GB,1,llm,False,REL,x1,,True,True,True,False,False,,,False,,influenciou a decisão
+monk2,sinteticas,GB,1,llm,False,IRR,x5,,True,True,True,True,True,False,,False,,não influenciou o resultado
+monk2,sinteticas,GB,1,llm,False,CON,x1,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk2,sinteticas,GB,1,padrao,False,SUF,x1; x2; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+monk2,sinteticas,GB,1,padrao,False,REL,x1,,True,True,True,False,False,,,False,,influenciou a decisão
+monk2,sinteticas,GB,1,padrao,False,IRR,x5,,True,True,True,True,True,False,,False,,não influenciou o resultado
+monk2,sinteticas,GB,1,padrao,False,CON,x1,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk3,sinteticas,AD,1,llm,False,SUF,x2; x4; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+monk3,sinteticas,AD,1,llm,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+monk3,sinteticas,AD,1,llm,False,IRR,x3,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk3,sinteticas,AD,1,llm,False,CON,x2,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk3,sinteticas,AD,1,padrao,False,SUF,x2; x5; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+monk3,sinteticas,AD,1,padrao,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+monk3,sinteticas,AD,1,padrao,False,IRR,x3,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk3,sinteticas,AD,1,padrao,False,CON,x2,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk3,sinteticas,RF,1,llm,False,SUF,x2; x4; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+monk3,sinteticas,RF,1,llm,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+monk3,sinteticas,RF,1,llm,False,IRR,x1,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk3,sinteticas,RF,1,llm,False,CON,x2,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk3,sinteticas,RF,1,padrao,False,SUF,x2; x5; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+monk3,sinteticas,RF,1,padrao,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+monk3,sinteticas,RF,1,padrao,False,IRR,x1,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk3,sinteticas,RF,1,padrao,False,CON,x2,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk3,sinteticas,GB,1,llm,False,SUF,x2; x4; x5,,True,True,True,False,False,,,False,,a decisão se explica por
+monk3,sinteticas,GB,1,llm,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+monk3,sinteticas,GB,1,llm,False,IRR,x3,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk3,sinteticas,GB,1,llm,False,CON,x2,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+monk3,sinteticas,GB,1,padrao,False,SUF,x2; x5; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+monk3,sinteticas,GB,1,padrao,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+monk3,sinteticas,GB,1,padrao,False,IRR,x3,,True,True,True,False,True,False,,False,,não influenciou o resultado
+monk3,sinteticas,GB,1,padrao,False,CON,x2,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+breast-cancer,reais,AD,1,llm,False,SUF,raio (pior); perímetro (pior); pontos côncavos (pior),,True,True,True,False,False,,,False,,a decisão se explica por
+breast-cancer,reais,AD,1,llm,False,REL,raio (pior),,True,True,True,False,False,,,False,,influenciou a decisão
+breast-cancer,reais,AD,1,llm,False,IRR,perímetro (média),,True,True,True,False,True,False,,False,,não influenciou o resultado
+breast-cancer,reais,AD,1,llm,False,CON,raio (pior),,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+breast-cancer,reais,AD,1,padrao,False,SUF,raio (pior); pontos côncavos (pior); perímetro (pior),,True,True,True,False,False,,,False,,a decisão se explica por
+breast-cancer,reais,AD,1,padrao,False,REL,raio (pior),,True,True,True,False,False,,,False,,influenciou a decisão
+breast-cancer,reais,AD,1,padrao,False,IRR,perímetro (média),,True,True,True,False,True,False,,False,,não influenciou o resultado
+breast-cancer,reais,AD,1,padrao,False,CON,raio (pior),,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+breast-cancer,reais,RF,1,llm,False,SUF,raio (pior); perímetro (pior); pontos côncavos (pior),,True,True,True,False,False,,,False,,a decisão se explica por
+breast-cancer,reais,RF,1,llm,False,REL,raio (pior),,True,True,True,False,False,,,False,,influenciou a decisão
+breast-cancer,reais,RF,1,llm,False,IRR,raio (média),,True,True,True,False,True,False,,False,,não influenciou o resultado
+breast-cancer,reais,RF,1,llm,False,CON,raio (pior),,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+breast-cancer,reais,RF,1,padrao,False,SUF,raio (pior); perímetro (pior); pontos côncavos (pior),,True,True,True,False,False,,,False,,a decisão se explica por
+breast-cancer,reais,RF,1,padrao,False,REL,raio (pior),,True,True,True,False,False,,,False,,influenciou a decisão
+breast-cancer,reais,RF,1,padrao,False,IRR,raio (média),,True,True,True,False,True,False,,False,,não influenciou o resultado
+breast-cancer,reais,RF,1,padrao,False,CON,raio (pior),,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+breast-cancer,reais,GB,1,llm,False,SUF,raio (pior); perímetro (pior); pontos côncavos (pior),,True,True,True,True,False,,1.0,False,,a decisão se explica por
+breast-cancer,reais,GB,1,llm,False,REL,raio (pior),,True,True,True,False,False,,,False,,influenciou a decisão
+breast-cancer,reais,GB,1,llm,False,IRR,área (pior),,True,True,True,False,True,False,,False,,não influenciou o resultado
+breast-cancer,reais,GB,1,llm,False,CON,raio (pior),,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+breast-cancer,reais,GB,1,padrao,False,SUF,raio (pior); perímetro (pior); pontos côncavos (pior),,True,True,True,True,False,,1.0,False,,a decisão se explica por
+breast-cancer,reais,GB,1,padrao,False,REL,raio (pior),,True,True,True,False,False,,,False,,influenciou a decisão
+breast-cancer,reais,GB,1,padrao,False,IRR,área (pior),,True,True,True,False,True,False,,False,,não influenciou o resultado
+breast-cancer,reais,GB,1,padrao,False,CON,raio (pior),,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+wine,reais,AD,1,llm,False,SUF,teor alcoólico; intensidade de cor; razão OD280/OD315,,True,True,True,True,True,,2.0,False,,a decisão se explica por
+wine,reais,AD,1,llm,False,REL,razão OD280/OD315,,True,True,True,False,False,,,False,,influenciou a decisão
+wine,reais,AD,1,llm,False,IRR,alcalinidade das cinzas,,True,True,True,False,True,False,,False,,não influenciou o resultado
+wine,reais,AD,1,llm,False,CON,razão OD280/OD315,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+wine,reais,AD,1,padrao,False,SUF,razão OD280/OD315; intensidade de cor; teor alcoólico,,True,True,True,True,True,,2.0,False,,a decisão se explica por
+wine,reais,AD,1,padrao,False,REL,razão OD280/OD315,,True,True,True,False,False,,,False,,influenciou a decisão
+wine,reais,AD,1,padrao,False,IRR,alcalinidade das cinzas,,True,True,True,False,True,False,,False,,não influenciou o resultado
+wine,reais,AD,1,padrao,False,CON,razão OD280/OD315,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+wine,reais,RF,1,llm,False,SUF,alcalinidade das cinzas; flavonoides; prolina,,True,True,True,True,False,,1.0,False,,a decisão se explica por
+wine,reais,RF,1,llm,False,REL,prolina,,True,True,True,False,False,,,False,,influenciou a decisão
+wine,reais,RF,1,llm,False,IRR,fenóis totais,,True,True,True,True,True,False,,False,,não influenciou o resultado
+wine,reais,RF,1,llm,False,CON,prolina,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+wine,reais,RF,1,padrao,False,SUF,prolina; alcalinidade das cinzas; flavonoides,,True,True,True,True,False,,1.0,False,,a decisão se explica por
+wine,reais,RF,1,padrao,False,REL,prolina,,True,True,True,False,False,,,False,,influenciou a decisão
+wine,reais,RF,1,padrao,False,IRR,fenóis totais,,True,True,True,True,True,False,,False,,não influenciou o resultado
+wine,reais,RF,1,padrao,False,CON,prolina,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+wine,reais,GB,1,llm,False,SUF,teor alcoólico; flavonoides; razão OD280/OD315,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+wine,reais,GB,1,llm,False,REL,razão OD280/OD315,,True,True,True,False,False,,,False,,influenciou a decisão
+wine,reais,GB,1,llm,False,IRR,alcalinidade das cinzas,,True,True,True,False,True,False,,False,,não influenciou o resultado
+wine,reais,GB,1,llm,False,CON,razão OD280/OD315,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+wine,reais,GB,1,padrao,False,SUF,razão OD280/OD315; teor alcoólico; flavonoides,,True,True,True,True,True,,1.0,False,,a decisão se explica por
+wine,reais,GB,1,padrao,False,REL,razão OD280/OD315,,True,True,True,False,False,,,False,,influenciou a decisão
+wine,reais,GB,1,padrao,False,IRR,alcalinidade das cinzas,,True,True,True,False,True,False,,False,,não influenciou o resultado
+wine,reais,GB,1,padrao,False,CON,razão OD280/OD315,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+iris,reais,AD,1,llm,False,SUF,comprimento da sépala; largura da sépala; largura da pétala,,True,True,True,False,False,,,False,,a decisão se explica por
+iris,reais,AD,1,llm,False,REL,comprimento da sépala,,True,True,True,False,False,,,False,,influenciou a decisão
+iris,reais,AD,1,llm,False,IRR,comprimento da pétala,,True,True,True,False,True,False,,False,,não influenciou o resultado
+iris,reais,AD,1,llm,False,CON,comprimento da sépala,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+iris,reais,AD,1,padrao,False,SUF,comprimento da sépala; largura da pétala; largura da sépala,,True,True,True,False,False,,,False,,a decisão se explica por
+iris,reais,AD,1,padrao,False,REL,comprimento da sépala,,True,True,True,False,False,,,False,,influenciou a decisão
+iris,reais,AD,1,padrao,False,IRR,comprimento da pétala,,True,True,True,False,True,False,,False,,não influenciou o resultado
+iris,reais,AD,1,padrao,False,CON,comprimento da sépala,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+iris,reais,RF,1,llm,False,SUF,comprimento da sépala; largura da sépala; largura da pétala,,True,True,True,False,False,,,False,,a decisão se explica por
+iris,reais,RF,1,llm,False,REL,largura da sépala,,True,True,True,False,False,,,False,,influenciou a decisão
+iris,reais,RF,1,llm,False,IRR,comprimento da pétala,,True,True,True,True,True,False,,False,,não influenciou o resultado
+iris,reais,RF,1,llm,False,CON,largura da sépala,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+iris,reais,RF,1,padrao,False,SUF,largura da sépala; largura da pétala; comprimento da sépala,,True,True,True,False,False,,,False,,a decisão se explica por
+iris,reais,RF,1,padrao,False,REL,largura da sépala,,True,True,True,False,False,,,False,,influenciou a decisão
+iris,reais,RF,1,padrao,False,IRR,comprimento da pétala,,True,True,True,True,True,False,,False,,não influenciou o resultado
+iris,reais,RF,1,padrao,False,CON,largura da sépala,,True,True,True,True,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+iris,reais,GB,1,llm,False,SUF,comprimento da sépala; largura da sépala; largura da pétala,,True,True,True,False,False,,,False,,a decisão se explica por
+iris,reais,GB,1,llm,False,REL,largura da pétala,,True,True,True,False,False,,,False,,influenciou a decisão
+iris,reais,GB,1,llm,False,IRR,comprimento da pétala,,True,True,True,False,True,False,,False,,não influenciou o resultado
+iris,reais,GB,1,llm,False,CON,largura da pétala,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+iris,reais,GB,1,padrao,False,SUF,largura da pétala; largura da sépala; comprimento da sépala,,True,True,True,False,False,,,False,,a decisão se explica por
+iris,reais,GB,1,padrao,False,REL,largura da pétala,,True,True,True,False,False,,,False,,influenciou a decisão
+iris,reais,GB,1,padrao,False,IRR,comprimento da pétala,,True,True,True,False,True,False,,False,,não influenciou o resultado
+iris,reais,GB,1,padrao,False,CON,largura da pétala,,True,True,True,False,True,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"

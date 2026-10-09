@@ -1,0 +1,5 @@
+modelo,bases,llm,padrao,diferenca_media,limite_inferior_95,ic95_inf,ic95_sup,margem,nao_inferior,wilcoxon_p,indicativo
+AD,2,50.0,50.0,0.0,-100.0,-100.0,100.0,10.0,False,0.5,True
+RF,2,100.0,50.0,50.0,0.0,0.0,100.0,10.0,True,0.25,True
+GB,2,50.0,50.0,0.0,0.0,0.0,0.0,10.0,True,0.25,True
+todos,2,66.66666666666666,50.0,16.66666666666666,-33.333333333333336,-33.333333333333336,66.66666666666666,10.0,False,0.5,True

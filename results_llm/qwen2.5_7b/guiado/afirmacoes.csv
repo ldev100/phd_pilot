@@ -1,0 +1,77 @@
+base,grupo,modelo,instancia,narrativa,falha_extracao,tipo,atributos,nao_mapeados,mapeada,verificavel,autorizada,falsa,falsa_dados,irr_branda_falsa,reparo,atenuada,sentido,trecho
+corral,sinteticas,AD,0,llm,False,SUF,x2; x3; x4,,True,True,True,False,False,,,False,,a decisão se explica por x2 e x3 e x4
+corral,sinteticas,AD,0,llm,False,REL,x2,,True,True,True,False,False,,,False,,x2 influenciou
+corral,sinteticas,AD,0,llm,False,REL,x3,,True,True,True,False,False,,,False,,x3 contribuiu para a classificação em 'classe 0'
+corral,sinteticas,AD,0,llm,False,REL,x4,,True,True,True,False,False,,,False,,x4 contribuiu para a classificação em 'classe 0'
+corral,sinteticas,AD,0,llm,False,REL,x1,,True,True,True,True,False,,,False,,x1 teve um efeito negativo
+corral,sinteticas,AD,0,llm,False,IRR,x6,,True,True,True,False,True,False,,False,,x6 não teve grande impacto na decisão
+corral,sinteticas,AD,0,llm,False,CON,x2,,True,True,True,False,False,,,False,,"se x2 fosse diferente, a classificação poderia mudar para 'classe 1'"
+corral,sinteticas,AD,0,llm,False,CON,x1,,True,True,False,True,True,,,False,,"se x1 tivesse um valor que contrariasse sua influência, isso poderia mudar a classificação para 'classe 1'"
+corral,sinteticas,AD,0,llm,False,ORD,x2,,True,False,True,,,,,False,,x2 foi importante
+corral,sinteticas,AD,0,llm,False,ORD,x3,,True,False,False,,,,,True,,"x3 contribuiu positivamente para a classificação em 'classe 0', embora com menor intensidade"
+corral,sinteticas,AD,0,llm,False,ORD,x4,,True,False,False,,,,,True,,"x4 contribuiu positivamente para a classificação em 'classe 0', embora com menor intensidade"
+corral,sinteticas,AD,0,llm,False,ORD,x1,,True,False,False,,,,,True,,"x1 teve um efeito negativo, mas foi menos significativo comparado aos outros fatores"
+corral,sinteticas,AD,0,padrao,False,SUF,x2; x3; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,AD,0,padrao,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,AD,0,padrao,False,IRR,x5,,True,True,True,False,True,False,,False,,não influenciou o resultado
+corral,sinteticas,AD,0,padrao,False,CON,x2,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,RF,0,llm,False,SUF,x2,,True,True,True,True,True,,1.0,False,,a decisão se explica por x2 e contribuiu positivamente
+corral,sinteticas,RF,0,llm,False,REL,x4,,True,True,True,False,False,,,True,,"as variáveis x4 e x3 também contribuíram positivamente, embora com menor intensidade"
+corral,sinteticas,RF,0,llm,False,REL,x3,,True,True,True,False,False,,,True,,"as variáveis x4 e x3 também contribuíram positivamente, embora com menor intensidade"
+corral,sinteticas,RF,0,llm,False,REL,x1,,True,True,True,True,False,,,True,,"o valor de x1 teve um efeito negativo, mas foi menos influente do que o fator principal"
+corral,sinteticas,RF,0,llm,False,IRR,x6,,True,True,False,False,True,False,,False,,variáveis como x6 não pareceram ter grande impacto na decisão desta vez
+corral,sinteticas,RF,0,llm,False,CON,x2; x4,,True,True,True,False,False,,,False,,"se x2 tivesse um valor diferente ou se x4 fosse zero, isso poderia mudar a classificação para 'classe 1'"
+corral,sinteticas,RF,0,padrao,False,SUF,x2; x4; x3,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,RF,0,padrao,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,RF,0,padrao,False,IRR,x5,,True,True,True,False,True,False,,False,,não influenciou o resultado
+corral,sinteticas,RF,0,padrao,False,CON,x2,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+corral,sinteticas,GB,0,llm,False,SUF,x2; x3; x4,,True,True,True,False,False,,,False,,"a decisão se explica por x2, x4 e x3"
+corral,sinteticas,GB,0,llm,False,REL,x2,,True,True,True,False,False,,,False,,x2 influenciou
+corral,sinteticas,GB,0,llm,False,REL,x4,,True,True,True,False,False,,,False,,x4 contribuiu
+corral,sinteticas,GB,0,llm,False,REL,x3,,True,True,True,False,False,,,False,,x3 contribuiu
+corral,sinteticas,GB,0,llm,False,DIR,x1,,True,False,True,,,,,False,contra,x1 pesou contra
+corral,sinteticas,GB,0,llm,False,DIR,x5,,True,False,True,,,,,False,contra,x5 pesou contra
+corral,sinteticas,GB,0,llm,False,IRR,x6,,True,True,False,False,True,False,,False,,x6 não influenciou
+corral,sinteticas,GB,0,llm,False,CON,x2; x4,,True,True,True,False,False,,,False,,"se x2 ou x4 fossem diferentes, a decisão poderia mudar"
+corral,sinteticas,GB,0,llm,False,ORD,x2,,True,False,True,,,,,False,,x2 foi o fator que mais pesou
+corral,sinteticas,GB,0,llm,False,ORD,x4,,True,False,False,,,,,False,,x4 pesou menos que x2
+corral,sinteticas,GB,0,llm,False,ORD,x3,,True,False,False,,,,,False,,x3 pesou menos que x4
+corral,sinteticas,GB,0,padrao,False,SUF,x2; x4; x3,,True,True,True,False,False,,,False,,a decisão se explica por
+corral,sinteticas,GB,0,padrao,False,REL,x2,,True,True,True,False,False,,,False,,influenciou a decisão
+corral,sinteticas,GB,0,padrao,False,IRR,x5,,True,True,True,False,True,False,,False,,não influenciou o resultado
+corral,sinteticas,GB,0,padrao,False,CON,x2,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,AD,0,llm,False,REL,x3,,True,True,True,False,False,,,True,,foi influenciada principalmente pelo valor da variável x3
+mux6,sinteticas,AD,0,llm,False,REL,x4,,True,True,True,False,False,,,False,,as variáveis x4 e x5 também contribuíram positivamente
+mux6,sinteticas,AD,0,llm,False,REL,x5,,True,True,True,False,False,,,False,,as variáveis x4 e x5 também contribuíram positivamente
+mux6,sinteticas,AD,0,llm,False,IRR,x6,,True,True,True,False,True,False,,False,,o fato de x6 ter o valor 1 não influenciou a decisão
+mux6,sinteticas,AD,0,llm,False,CON,x3; x6,,True,True,True,False,False,,,False,,"se x3 tivesse um valor diferente ou se x6 tivesse outro valor, isso poderia mudar a classificação do caso para 'classe 1'"
+mux6,sinteticas,AD,0,padrao,False,SUF,x3; x5; x4,,True,True,True,False,False,,,False,,a decisão se explica por
+mux6,sinteticas,AD,0,padrao,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,AD,0,padrao,False,IRR,x2,,True,True,True,True,True,False,,False,,não influenciou o resultado
+mux6,sinteticas,AD,0,padrao,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,RF,0,llm,False,REL,x3,,True,True,True,False,False,,,False,,foi influenciada principalmente pelo valor do atributo x3
+mux6,sinteticas,RF,0,llm,False,REL,x1,,True,True,True,False,False,,,False,,"os atributos x1, x2 e x4 também contribuíram positivamente"
+mux6,sinteticas,RF,0,llm,False,REL,x2,,True,True,True,False,False,,,False,,"os atributos x1, x2 e x4 também contribuíram positivamente"
+mux6,sinteticas,RF,0,llm,False,REL,x4,,True,True,True,False,False,,,False,,"os atributos x1, x2 e x4 também contribuíram positivamente"
+mux6,sinteticas,RF,0,llm,False,DIR,x6,,True,False,True,,,,,True,contra,o atributo x6 teve um pequeno e negativo efeito
+mux6,sinteticas,RF,0,llm,False,IRR,x5,,True,True,False,True,True,False,,False,,o atributo x5 não influenciou significativamente a decisão final
+mux6,sinteticas,RF,0,llm,False,CON,x1; x2; x4; x6,,True,True,True,False,False,,,False,,"se o valor do x6 fosse diferente ou se os valores dos outros atributos fossem alterados, isso poderia mudar a classificação do caso para 'classe 1'"
+mux6,sinteticas,RF,0,llm,False,SUF,x1; x2; x3; x4,,True,True,True,False,False,,,False,,"a decisão se explica por x3, x1, x2 e x4"
+mux6,sinteticas,RF,0,llm,False,DIR,x3,,True,False,True,,,,,True,a_favor,x3 teve um grande impacto positivo na probabilidade de ser 'classe 0'
+mux6,sinteticas,RF,0,padrao,False,SUF,x3; x5; x4,,True,True,True,True,False,,1.0,False,,a decisão se explica por
+mux6,sinteticas,RF,0,padrao,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,RF,0,padrao,False,IRR,x6,,True,True,True,False,True,False,,False,,não influenciou o resultado
+mux6,sinteticas,RF,0,padrao,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"
+mux6,sinteticas,GB,0,llm,False,SUF,x3,,True,True,True,True,True,,2.0,False,,a decisão se explica por x3
+mux6,sinteticas,GB,0,llm,False,REL,x1,,True,True,True,False,False,,,False,,"os atributos x1, x2 e x4 contribuíram para essa decisão"
+mux6,sinteticas,GB,0,llm,False,REL,x2,,True,True,True,False,False,,,False,,"os atributos x1, x2 e x4 contribuíram para essa decisão"
+mux6,sinteticas,GB,0,llm,False,REL,x4,,True,True,True,False,False,,,False,,"os atributos x1, x2 e x4 contribuíram para essa decisão"
+mux6,sinteticas,GB,0,llm,False,IRR,x6,,True,True,True,False,True,False,,False,,o valor do atributo x6 não afetou a classificação neste caso
+mux6,sinteticas,GB,0,llm,False,CON,x3,,True,True,True,False,False,,,False,,"se o valor do x3 fosse diferente, isso poderia alterar a decisão do modelo"
+mux6,sinteticas,GB,0,llm,False,CON,x1,,True,True,True,True,True,,,False,,"se houvesse uma mudança significativa no valor de x1, isso poderia alterar a decisão do modelo"
+mux6,sinteticas,GB,0,llm,False,DIR,x3,,True,False,True,,,,,False,a_favor,x3 teve um grande impacto positivo na probabilidade de ser 'classe 0'
+mux6,sinteticas,GB,0,llm,False,ORD,x1; x2; x4,,True,False,False,,,,,True,,"os atributos x1, x2 e x4 contribuíram para essa decisão, embora com menor intensidade"
+mux6,sinteticas,GB,0,padrao,False,SUF,x3; x5; x4,,True,True,True,True,False,,1.0,False,,a decisão se explica por
+mux6,sinteticas,GB,0,padrao,False,REL,x3,,True,True,True,False,False,,,False,,influenciou a decisão
+mux6,sinteticas,GB,0,padrao,False,IRR,x6,,True,True,True,False,True,False,,False,,não influenciou o resultado
+mux6,sinteticas,GB,0,padrao,False,CON,x3,,True,True,True,False,False,,,False,,"se seu valor fosse diferente, a decisão poderia mudar"

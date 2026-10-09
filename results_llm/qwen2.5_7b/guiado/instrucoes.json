@@ -1,0 +1,109 @@
+{
+  "leituras_padrao": {
+    "SUF": "todos os atributos citados têm contribuição SHAP positiva (a favor da decisão)",
+    "REL": "o atributo tem contribuição SHAP não nula",
+    "IRR": "a contribuição do atributo é desprezível (|phi_i| <= tau * max_j |phi_j|) ou é a de menor módulo entre os atributos fora dos três que mais favorecem a decisão",
+    "CON": "algum atributo citado tem contribuição SHAP positiva",
+    "ORD": "os atributos citados estão em ordem não crescente de |phi|; um atributo citado sozinho tem o maior |phi| ou o maior phi",
+    "DIR": "o sinal de phi_i coincide com o sentido afirmado (a favor: phi_i > 0; contra: phi_i < 0)"
+  },
+  "tau": 0.1,
+  "narracao": {
+    "guiado": [
+      {
+        "role": "system",
+        "content": "Você explica decisões de modelos de aprendizado de máquina para pessoas sem formação técnica, em português do Brasil. Use apenas as informações fornecidas."
+      },
+      {
+        "role": "user",
+        "content": "Um modelo de aprendizado de máquina classifica casos descritos por 6 variáveis discretas, de x1 a x6, nas classes \"classe 0\" e \"classe 1\".\n\nValores do caso:\n- x1: valor 1\n- x2: valor 0\n- x3: valor 0\n- x4: valor 0\n- x5: valor 1\n- x6: valor 0\n\nDecisão do modelo: \"classe 0\" (probabilidade estimada de 100%).\n\nContribuições SHAP de cada atributo para essa decisão, da maior para a menor em magnitude. Valores positivos favorecem \"classe 0\", e negativos favorecem \"classe 1\". Partindo da probabilidade média de referência, de 55%, a soma das contribuições leva à probabilidade estimada.\n- x2, valor 0: +0,327\n- x3, valor 0: +0,131\n- x1, valor 1: -0,112\n- x4, valor 0: +0,097\n- x6, valor 0: +0,017\n- x5, valor 1: -0,010\n\nEscreva uma explicação curta, de 3 a 5 frases, dessa decisão para uma pessoa leiga. Na explicação, (1) diga quais fatores explicam a decisão; (2) diga qual fator mais pesou; (3) diga se algum fator não influenciou o resultado; e (4) diga o que poderia mudar a decisão. Escreva em texto corrido, sem listas nem títulos, e não cite os valores numéricos das contribuições."
+      }
+    ],
+    "livre": [
+      {
+        "role": "system",
+        "content": "Você explica decisões de modelos de aprendizado de máquina para pessoas sem formação técnica, em português do Brasil. Use apenas as informações fornecidas."
+      },
+      {
+        "role": "user",
+        "content": "Um modelo de aprendizado de máquina classifica casos descritos por 6 variáveis discretas, de x1 a x6, nas classes \"classe 0\" e \"classe 1\".\n\nValores do caso:\n- x1: valor 1\n- x2: valor 0\n- x3: valor 0\n- x4: valor 0\n- x5: valor 1\n- x6: valor 0\n\nDecisão do modelo: \"classe 0\" (probabilidade estimada de 100%).\n\nContribuições SHAP de cada atributo para essa decisão, da maior para a menor em magnitude. Valores positivos favorecem \"classe 0\", e negativos favorecem \"classe 1\". Partindo da probabilidade média de referência, de 55%, a soma das contribuições leva à probabilidade estimada.\n- x2, valor 0: +0,327\n- x3, valor 0: +0,131\n- x1, valor 1: -0,112\n- x4, valor 0: +0,097\n- x6, valor 0: +0,017\n- x5, valor 1: -0,010\n\nEscreva uma explicação curta, de 3 a 5 frases, dessa decisão para uma pessoa leiga. Escreva em texto corrido, sem listas nem títulos, e não cite os valores numéricos das contribuições."
+      }
+    ]
+  },
+  "extracao": [
+    {
+      "role": "system",
+      "content": "Você é um anotador cuidadoso. Sua tarefa é listar as afirmações que um texto faz sobre a decisão de um modelo de classificação, sem acrescentar nada que não esteja escrito."
+    },
+    {
+      "role": "user",
+      "content": "Atributos do modelo (use exatamente estes nomes): x1; x2; x3; x4; x5; x6.\nDecisão do modelo: \"classe 0\" (a outra classe é \"classe 1\").\n\nTexto:\n\"\"\"\nO modelo classificou o caso como classe 0. A decisão se explica por x2 = 0, x3 = 0 e x4 = 0. X2 influenciou a decisão e, se seu valor fosse diferente, a decisão poderia mudar. Já x5 não influenciou o resultado.\n\"\"\"\n\nListe cada afirmação que o texto faz sobre a decisão, com um destes tipos:\n- SUF: um ou mais atributos explicam ou determinam a decisão (\"a decisão se explica por A e B\", \"a decisão se deve a A e B\", \"A e B levaram à decisão\").\n- REL: um atributo influenciou ou contribuiu para a decisão (\"A influenciou\", \"A foi importante\", \"A contribuiu\").\n- IRR: um atributo não influenciou a decisão (\"B não influenciou\", \"B não teve efeito\", \"B não importou\").\n- CON: mudar um ou mais atributos poderia mudar a decisão (\"se A fosse diferente, a decisão poderia mudar\", \"com A baixo, o resultado seria outro\").\n- ORD: um atributo pesou mais que outros (\"A foi o fator que mais pesou\", \"A pesou mais que B\"); liste os atributos do mais para o menos importante.\n- DIR: um atributo favoreceu a decisão ou pesou contra ela (\"A favoreceu a decisão\", \"B pesou contra\"); indique o sentido.\n- OUTRA: qualquer outra afirmação sobre o modelo ou a decisão.\nUma frase pode conter mais de uma afirmação. Não liste o simples anúncio da decisão (\"o modelo classificou o caso como X\"). Em \"atributos\", use só nomes da lista acima. Em \"atenuada\", use true quando a afirmação vier com ressalva (\"principalmente\", \"em parte\", \"provavelmente\", \"pode ter\") e false caso contrário. Em \"sentido\", use \"a_favor\" ou \"contra\" no tipo DIR e \"\" nos demais.\n\nExemplo, com outro modelo (atributos: renda; idade; dívidas; decisão: \"aprovado\"):\nTexto: \"O pedido foi aprovado principalmente por causa da renda alta, que pesou a favor. A idade não influenciou o resultado. Se as dívidas fossem altas, o resultado poderia mudar.\"\nResposta: {\"afirmacoes\": [{\"trecho\": \"aprovado principalmente por causa da renda alta\", \"tipo\": \"SUF\", \"atributos\": [\"renda\"], \"atenuada\": true, \"sentido\": \"\"}, {\"trecho\": \"principalmente por causa da renda alta\", \"tipo\": \"ORD\", \"atributos\": [\"renda\"], \"atenuada\": true, \"sentido\": \"\"}, {\"trecho\": \"a renda alta, que pesou a favor\", \"tipo\": \"DIR\", \"atributos\": [\"renda\"], \"atenuada\": false, \"sentido\": \"a_favor\"}, {\"trecho\": \"A idade não influenciou o resultado\", \"tipo\": \"IRR\", \"atributos\": [\"idade\"], \"atenuada\": false, \"sentido\": \"\"}, {\"trecho\": \"Se as dívidas fossem altas, o resultado poderia mudar\", \"tipo\": \"CON\", \"atributos\": [\"dívidas\"], \"atenuada\": false, \"sentido\": \"\"}]}\n\nResponda apenas com o JSON, no formato do exemplo."
+    }
+  ],
+  "esquema": {
+    "type": "object",
+    "properties": {
+      "afirmacoes": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "trecho": {
+              "type": "string"
+            },
+            "tipo": {
+              "type": "string",
+              "enum": [
+                "SUF",
+                "REL",
+                "IRR",
+                "CON",
+                "ORD",
+                "DIR",
+                "OUTRA"
+              ]
+            },
+            "atributos": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "x1",
+                  "x2",
+                  "x3",
+                  "x4",
+                  "x5",
+                  "x6"
+                ]
+              }
+            },
+            "atenuada": {
+              "type": "boolean"
+            },
+            "sentido": {
+              "type": "string",
+              "enum": [
+                "a_favor",
+                "contra",
+                ""
+              ]
+            }
+          },
+          "required": [
+            "trecho",
+            "tipo",
+            "atributos",
+            "atenuada",
+            "sentido"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "afirmacoes"
+    ],
+    "additionalProperties": false
+  },
+  "exemplo": "corral/AD/0"
+}

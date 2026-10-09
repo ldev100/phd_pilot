@@ -1,0 +1,7 @@
+base,grupo,modelo,instancia,classe,m,falha_extracao,erros,palavras,n_afirmacoes,n_verificaveis,n_nao_mapeadas,alguma_falsa,alguma_falsa_dados,herdado,narrador,padrao_alguma_falsa,padrao_alguma_falsa_dados,segundos_llm,tokens_saida,do_cache,tem_SUF,SUF_falsa,tem_REL,REL_falsa,tem_IRR,IRR_falsa,tem_CON,CON_falsa
+corral,sinteticas,AD,0,classe 0,6,False,,90,12,8,0,True,True,True,True,False,True,46.41,859,True,True,False,True,True,True,False,True,True
+corral,sinteticas,RF,0,classe 0,6,False,,87,6,6,0,True,True,True,False,False,True,40.24,744,True,True,True,True,True,True,False,True,False
+corral,sinteticas,GB,0,classe 0,6,False,,88,11,6,0,False,True,False,False,False,True,34.87,620,True,True,False,True,False,True,False,True,False
+mux6,sinteticas,AD,0,classe 0,6,False,,83,5,5,0,False,True,False,False,True,True,28.48,486,True,False,False,True,False,True,False,True,False
+mux6,sinteticas,RF,0,classe 0,6,False,,85,9,7,0,True,True,False,True,True,True,40.26,745,True,True,False,True,False,True,True,True,False
+mux6,sinteticas,GB,0,classe 0,6,False,,85,9,7,0,True,True,True,False,True,True,30.81,520,True,True,True,True,False,True,False,True,True

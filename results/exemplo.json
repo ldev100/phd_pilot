@@ -1,0 +1,91 @@
+{
+  "base": "breast-cancer",
+  "modelo": "RF",
+  "classe": "benigno",
+  "classe_oposta": "maligno",
+  "instancia": {
+    "raio (média)": "baixa",
+    "perímetro (média)": "baixa",
+    "concavidade (média)": "intermediária",
+    "pontos côncavos (média)": "intermediária",
+    "raio (pior)": "baixa",
+    "perímetro (pior)": "intermediária",
+    "área (pior)": "baixa",
+    "pontos côncavos (pior)": "intermediária"
+  },
+  "shap": {
+    "raio (pior)": 0.1161,
+    "área (pior)": 0.0889,
+    "perímetro (pior)": 0.0532,
+    "pontos côncavos (pior)": 0.0404,
+    "pontos côncavos (média)": 0.0351,
+    "concavidade (média)": 0.0182,
+    "raio (média)": 0.0031,
+    "perímetro (média)": -0.0102
+  },
+  "narrativa_shap": "O modelo classificou o caso como benigno. A decisão se explica por raio (pior) na faixa baixa, área (pior) na faixa baixa e perímetro (pior) na faixa intermediária. Raio (pior) influenciou a decisão e, se seu valor fosse diferente, a decisão poderia mudar. Já raio (média) não influenciou o resultado.",
+  "vereditos": {
+    "N1_suf_topk": {
+      "afirmacao": "SUF",
+      "atributos": [
+        "raio (pior)",
+        "área (pior)",
+        "perímetro (pior)"
+      ],
+      "verdadeira_espaco": false,
+      "verdadeira_dados": false
+    },
+    "N2_rel_top1": {
+      "afirmacao": "REL",
+      "atributos": [
+        "raio (pior)"
+      ],
+      "verdadeira_espaco": true,
+      "verdadeira_dados": true
+    },
+    "N3_irr_ultimo": {
+      "afirmacao": "IRR",
+      "atributos": [
+        "raio (média)"
+      ],
+      "verdadeira_espaco": false,
+      "verdadeira_dados": false
+    },
+    "N4_con_top1": {
+      "afirmacao": "CON",
+      "atributos": [
+        "raio (pior)"
+      ],
+      "verdadeira_espaco": false,
+      "verdadeira_dados": false
+    }
+  },
+  "contraexemplo": {
+    "mantidos": [
+      "raio (pior) na faixa baixa",
+      "área (pior) na faixa baixa",
+      "perímetro (pior) na faixa intermediária"
+    ],
+    "alterados": [
+      "concavidade (média) na faixa alta (em vez de intermediária)",
+      "pontos côncavos (média) na faixa alta (em vez de intermediária)",
+      "pontos côncavos (pior) na faixa alta (em vez de intermediária)"
+    ],
+    "classe": "maligno"
+  },
+  "narrativa_verificada": "O modelo classificou o caso como benigno. Estes valores bastam para essa decisão: raio (pior) na faixa baixa, área (pior) na faixa baixa e pontos côncavos (pior) na faixa intermediária; qualquer caso com eles recebe a mesma classe. Nenhuma mudança em um único atributo reverte a decisão; seria preciso alterar ao menos dois atributos ao mesmo tempo, por exemplo raio (pior) e área (pior).",
+  "afirmacoes_verificadas": {
+    "V1_suf": [
+      "raio (pior)",
+      "área (pior)",
+      "pontos côncavos (pior)"
+    ],
+    "V2_rel": [
+      "raio (pior)"
+    ],
+    "V4_con": [
+      "raio (pior)",
+      "área (pior)"
+    ]
+  }
+}

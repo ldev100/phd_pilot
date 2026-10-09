@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-09",
+  "python": "3.12.15",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.1",
+  "shap": "0.52.0",
+  "narrador": {
+    "backend": "ollama",
+    "servidor": "Ollama 0.30.11",
+    "modelo": "qwen2.5:7b",
+    "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "familia": "qwen2",
+    "parametros": "7.6B",
+    "quantizacao": "Q4_K_M"
+  },
+  "extrator": "o mesmo",
+  "estilo": "guiado",
+  "temperatura": 0.0,
+  "semente": 2027,
+  "num_ctx": 4096,
+  "tokens_max": {
+    "narracao": 400,
+    "extracao": 1200
+  },
+  "tau_irrelevancia": 0.1,
+  "margem_nao_inferioridade": 10.0,
+  "bases": "todas",
+  "modelos": [
+    "AD",
+    "RF",
+    "GB"
+  ],
+  "instancias_por_base": 50,
+  "casos_previstos": 6,
+  "narrativas": 6,
+  "interrompido": false,
+  "chamadas_novas": 0,
+  "respostas_do_cache": 12,
+  "tempo_execucao_s": 0.0
+}

@@ -1,0 +1,55 @@
+base,grupo,modelo,instancia,classe,m,falha_extracao,erros,palavras,n_afirmacoes,n_verificaveis,n_nao_mapeadas,alguma_falsa,alguma_falsa_dados,herdado,narrador,padrao_alguma_falsa,padrao_alguma_falsa_dados,segundos_llm,tokens_saida,do_cache,tem_SUF,SUF_falsa,tem_REL,REL_falsa,tem_IRR,IRR_falsa,tem_CON,CON_falsa
+corral,sinteticas,AD,0,classe 0,6,False,,43,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+corral,sinteticas,RF,0,classe 0,6,False,,43,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+corral,sinteticas,GB,0,classe 0,6,False,,43,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+mux6,sinteticas,AD,0,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,False,True,False,True,True,True,False
+mux6,sinteticas,RF,0,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,False,True,False
+mux6,sinteticas,GB,0,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,False,True,False
+parity5+5,sinteticas,AD,0,classe 1,10,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,False,True,False
+parity5+5,sinteticas,RF,0,classe 1,10,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,True,True,False
+parity5+5,sinteticas,GB,0,classe 0,10,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,True,True,False
+monk1,sinteticas,AD,0,classe 0,6,False,,43,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+monk1,sinteticas,RF,0,classe 0,6,False,,43,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+monk1,sinteticas,GB,0,classe 0,6,False,,43,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+monk2,sinteticas,AD,0,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,True,True,True
+monk2,sinteticas,RF,0,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,True,True,False
+monk2,sinteticas,GB,0,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,False,True,False
+monk3,sinteticas,AD,0,classe 1,6,False,,43,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+monk3,sinteticas,RF,0,classe 1,6,False,,43,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+monk3,sinteticas,GB,0,classe 1,6,False,,43,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+breast-cancer,reais,AD,0,maligno,8,False,,50,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+breast-cancer,reais,RF,0,maligno,8,False,,50,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+breast-cancer,reais,GB,0,maligno,8,False,,51,4,4,0,True,True,True,False,True,True,0,0,False,True,False,True,False,True,True,True,False
+wine,reais,AD,0,cultivar 0,8,False,,49,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,False,True,False
+wine,reais,RF,0,cultivar 0,8,False,,49,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,True,True,False
+wine,reais,GB,0,cultivar 0,8,False,,47,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,False,True,False
+iris,reais,AD,0,versicolor,4,False,,56,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+iris,reais,RF,0,versicolor,4,False,,56,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+iris,reais,GB,0,versicolor,4,False,,56,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+corral,sinteticas,AD,1,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,False,True,False,True,False,True,True
+corral,sinteticas,RF,1,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,False,True,False,True,False,True,True
+corral,sinteticas,GB,1,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,False,True,False,True,False,True,True
+mux6,sinteticas,AD,1,classe 1,6,False,,43,4,4,0,False,False,False,False,False,False,0,0,False,True,False,True,False,True,False,True,False
+mux6,sinteticas,RF,1,classe 1,6,False,,43,4,4,0,False,False,False,False,False,False,0,0,False,True,False,True,False,True,False,True,False
+mux6,sinteticas,GB,1,classe 1,6,False,,43,4,4,0,False,False,False,False,False,False,0,0,False,True,False,True,False,True,False,True,False
+parity5+5,sinteticas,AD,1,classe 0,10,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,False,True,False
+parity5+5,sinteticas,RF,1,classe 0,10,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,True,True,True
+parity5+5,sinteticas,GB,1,classe 0,10,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,True,True,True
+monk1,sinteticas,AD,1,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,False,True,False
+monk1,sinteticas,RF,1,classe 1,6,False,,43,4,4,0,False,False,False,False,False,False,0,0,False,True,False,True,False,True,False,True,False
+monk1,sinteticas,GB,1,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,False,True,False
+monk2,sinteticas,AD,1,classe 1,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,True,True,False
+monk2,sinteticas,RF,1,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,False,True,False,True,True,True,True
+monk2,sinteticas,GB,1,classe 0,6,False,,43,4,4,0,True,True,True,False,True,True,0,0,False,True,False,True,False,True,True,True,False
+monk3,sinteticas,AD,1,classe 1,6,False,,43,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+monk3,sinteticas,RF,1,classe 1,6,False,,43,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+monk3,sinteticas,GB,1,classe 1,6,False,,43,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+breast-cancer,reais,AD,1,benigno,8,False,,51,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+breast-cancer,reais,RF,1,benigno,8,False,,51,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+breast-cancer,reais,GB,1,benigno,8,False,,51,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,False,True,False
+wine,reais,AD,1,cultivar 0,8,False,,53,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,False,True,False
+wine,reais,RF,1,outros cultivares,8,False,,49,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,True,True,False
+wine,reais,GB,1,cultivar 0,8,False,,51,4,4,0,True,True,True,False,True,True,0,0,False,True,True,True,False,True,False,True,False
+iris,reais,AD,1,outras espécies,4,False,,58,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False
+iris,reais,RF,1,outras espécies,4,False,,58,4,4,0,True,True,True,False,True,True,0,0,False,True,False,True,False,True,True,True,True
+iris,reais,GB,1,outras espécies,4,False,,58,4,4,0,False,True,False,False,False,True,0,0,False,True,False,True,False,True,False,True,False

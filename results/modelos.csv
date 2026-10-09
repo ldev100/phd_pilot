@@ -1,0 +1,28 @@
+base,origem,modelo,m,espaco,pontos_treino,acuracia,instancias
+corral,sintética,AD,6,64,45,0.9791666666666666,31
+corral,sintética,RF,6,64,45,0.9791666666666666,31
+corral,sintética,GB,6,64,45,1.0,31
+mux6,sintética,AD,6,64,55,0.9230769230769231,30
+mux6,sintética,RF,6,64,55,1.0,30
+mux6,sintética,GB,6,64,55,1.0,30
+parity5+5,sintética,AD,10,1024,547,0.5177514792899408,50
+parity5+5,sintética,RF,10,1024,547,0.4911242603550296,50
+parity5+5,sintética,GB,10,1024,547,0.47337278106508873,50
+monk1,sintética,AD,6,432,302,0.7923076923076923,50
+monk1,sintética,RF,6,432,302,0.9384615384615385,50
+monk1,sintética,GB,6,432,302,0.7692307692307693,50
+monk2,sintética,AD,6,432,302,0.6461538461538462,50
+monk2,sintética,RF,6,432,302,0.6615384615384615,50
+monk2,sintética,GB,6,432,302,0.6461538461538462,50
+monk3,sintética,AD,6,432,302,0.9538461538461539,50
+monk3,sintética,RF,6,432,302,0.9307692307692308,50
+monk3,sintética,GB,6,432,302,0.9692307692307692,50
+breast-cancer,real (scikit-learn),AD,8,6561,97,0.9532163742690059,50
+breast-cancer,real (scikit-learn),RF,8,6561,97,0.9649122807017544,50
+breast-cancer,real (scikit-learn),GB,8,6561,97,0.9590643274853801,50
+wine,real (scikit-learn),AD,8,6561,103,0.9444444444444444,49
+wine,real (scikit-learn),RF,8,6561,103,0.9814814814814815,49
+wine,real (scikit-learn),GB,8,6561,103,0.9444444444444444,49
+iris,real (scikit-learn),AD,4,256,46,0.9777777777777777,29
+iris,real (scikit-learn),RF,4,256,46,0.9777777777777777,29
+iris,real (scikit-learn),GB,4,256,46,0.9555555555555556,29

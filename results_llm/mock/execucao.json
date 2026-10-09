@@ -1,0 +1,37 @@
+{
+  "data": "2026-10-08",
+  "python": "3.12.15",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.1",
+  "shap": "0.52.0",
+  "narrador": {
+    "backend": "mock",
+    "modelo": "narrativa-padrao"
+  },
+  "extrator": "o mesmo",
+  "estilo": null,
+  "temperatura": 0.0,
+  "semente": 2027,
+  "num_ctx": 4096,
+  "tokens_max": {
+    "narracao": 400,
+    "extracao": 1200
+  },
+  "tau_irrelevancia": 0.1,
+  "margem_nao_inferioridade": 10.0,
+  "bases": "todas",
+  "modelos": [
+    "AD",
+    "RF",
+    "GB"
+  ],
+  "instancias_por_base": 2,
+  "casos_previstos": 54,
+  "narrativas": 54,
+  "interrompido": false,
+  "chamadas_novas": 0,
+  "respostas_do_cache": 0,
+  "tempo_execucao_s": 0.0
+}
