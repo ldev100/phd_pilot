@@ -1,10 +1,10 @@
-# Narrativas de explicação verificáveis: estudo piloto
+# Narrativas de explicação verificáveis
 
 Estudo preliminar que acompanha o projeto de pesquisa *Narrativas de Explicação
 Verificáveis: Checagem Formal e Certificada de Explicações em Linguagem Natural para
 Modelos de Aprendizado de Máquina*.
 
-## Pergunta
+## Objetivo
 
 Explicações de decisões automatizadas chegam cada vez mais às pessoas na forma de texto,
 muitas vezes escrito por um modelo de linguagem a partir da saída de ferramentas como o
@@ -48,36 +48,6 @@ contribuições SHAP positivas. Todas as suas afirmações são verdadeiras por 
   probabilidade da classe predita.
 - Verificação exata: tabela de suficiência para todos os 2^m subconjuntos de variáveis,
   por transformada de soma sobre superconjuntos, no espaço completo e nos dados de treino.
-
-## Resultados principais
-
-Percentual de narrativas-padrão com afirmação formalmente falsa (espaço completo):
-
-| Modelo | Suficiência | Relevância | Irrelevância | Contraste | Alguma falsa |
-|---|---:|---:|---:|---:|---:|
-| Árvore de decisão | 35 | 0 | 33 | 18 | 56 |
-| *Random forest* | 26 | 0 | 57 | 33 | 65 |
-| *Gradient boosting* | 33 | 0 | 39 | 22 | 60 |
-
-- A afirmação mais fraca, de que o atributo de maior contribuição favorável influenciou a
-  decisão, **nunca** foi falsa; as frágeis são as de suficiência, irrelevância e contraste.
-- Excluindo a paridade (modelos no nível do acaso), as taxas de "alguma falsa" são 49%,
-  60% e 54%; tomando a base como unidade, 54%, 63% e 57%. Nas três bases reais, 75%.
-- Em 11% a 33% das instâncias todos os atributos são relevantes, o que torna falsa qualquer
-  afirmação de irrelevância; restrita às instâncias com algum atributo irrelevante, a taxa
-  de irrelevância falsa é de 25% a 36%.
-- Dizer só a verdade custa pouco: a menor explicação suficiente tem em média 2,7 a 2,8
-  atributos e cabe em três em 76% a 82% dos casos; a afirmação de suficiência do SHAP é
-  reparada acrescentando, em média, 1,3 a 1,8 atributos.
-- O domínio decide o veredito. Nos conceitos sintéticos, cujos dados de treino cobrem a
-  maior parte do espaço, 93% a 97% dos contraexemplos à suficiência são casos dos dados.
-  Nas bases reais, cujos dados cobrem de 1,5% a 18% do espaço, só 12% a 24% o são; decididas
-  sobre esses dados, quase todas as afirmações de suficiência passam (2% a 8% falsas, contra
-  19% a 32% no espaço completo) e quase todas as de contraste falham (91% a 92%).
-
-Detalhes por base, intervalos de confiança, sensibilidade ao número de atributos citados e
-um exemplo comentado estão em `results/resumo.md`; os números por grupo de bases estão em
-`results/por_grupo.csv`.
 
 ## Como reproduzir
 
